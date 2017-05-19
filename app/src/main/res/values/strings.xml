@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FTP文件下载</string>
+    <string name="change_local">切换到本地</string>
+    <string name="change_remote">切换到FTP</string>
+    <string name="download">单个下载</string>
+    <string name="uploading">上传</string>
+    <string name="tuichu">退出</string>
+    <string name="downall">下载全部</string>
+    <string name="close">断开</string>
+    <string name="port">请输入服务器IP</string>
+    <string name="username">请输入登录名</string>
+    <string name="pwd">请输入登陆密码</string>
+</resources>

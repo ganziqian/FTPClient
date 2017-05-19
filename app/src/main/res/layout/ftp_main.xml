@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/white"
+  >
+  <RelativeLayout
+	  android:padding="10dp"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	>
+	  <Button
+		  android:id="@+id/button_dowmall"
+		  android:layout_width="100dip"
+		  android:layout_height="wrap_content"
+		  android:text="@string/downall"
+		  android:textColor="#F0F0F0"
+		  android:background="#1E90FF"
+		  />
+
+
+
+  	<Button 
+  		android:id="@+id/button_download"
+  		android:layout_width="100dip"
+  		android:layout_height="wrap_content"
+  		android:text="@string/download"
+  		android:layout_centerHorizontal="true"
+		android:textColor="#F0F0F0"
+		android:background="#1E90FF"
+  		/>
+
+  	<Button 
+  		android:id="@+id/button_close"
+  		android:layout_width="100dip"
+  		android:layout_height="wrap_content"
+  		android:text="@string/close"
+  		android:layout_alignParentRight="true"
+		android:textColor="#F0F0F0"
+		android:background="#1E90FF"
+  		/>
+  </RelativeLayout>
+
+	<TextView
+		android:gravity="center"
+		android:id="@+id/ftp_jiazai_tv"
+		android:padding="5dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#000000"/>
+
+	<ListView  
+		android:id="@+id/list"
+	  android:layout_width="fill_parent" 
+	  android:layout_height="fill_parent" 
+	  />
+</LinearLayout>
